@@ -1,7 +1,7 @@
 if g:osdetected == "Windows"
-    :tmenu icon=$HOME/\.vim/bitmaps/reload.bmp 1.475 ToolBar.reload_file reload file. normal-mode <F5> or \lll
+    :tmenu icon=$HOME/\.vim/bitmaps/reload.bmp 1.475 ToolBar.reload_file reload file. normal-mode <F5> or \ll
 elseif g:osdetected != "Windows"
-    :tmenu icon=$HOME/.vim/bitmaps/reload.bmp 1.475 ToolBar.reload_file reload file. normal-mode <F5> or \lll
+    :tmenu icon=$HOME/.vim/bitmaps/reload.bmp 1.475 ToolBar.reload_file reload file. normal-mode <F5> or \ll
 endif
 
 :menu ToolBar.reload_file <Esc>:e!<Esc>
